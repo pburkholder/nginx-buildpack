@@ -34,8 +34,8 @@ dependencies:
   source_sha256: e4cfba989bba614cd53f3f406ac6da9f05977d6b1296e5d20a299f10c2d7ae43
 - name: nginx
   version: 1.15.9
-  uri: https://buildpacks.cloudfoundry.org/dependencies/nginx/nginx-1.15.9-linux-x64-cflinuxfs3-cde9edd0.tgz
-  sha256: cde9edd0229c44cc5f5af5d220eaf06d849d44c6de2e54748e46f97e7ce0b583
+  uri: https://s3.amazonaws.com/media.pburkholder.com/nginx-1.15.9-cflinuxfs3-e4cfba98.tgz
+  sha256: e4cfba989bba614cd53f3f406ac6da9f05977d6b1296e5d20a299f10c2d7ae43
   cf_stacks:
   - cflinuxfs3
   source: http://nginx.org/download/nginx-1.15.9.tar.gz
